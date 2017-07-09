@@ -1,0 +1,46 @@
+body{
+  background-color: #fff;
+}
+section.wrapper{
+  background-color: #8E99FF;
+  width: 300px;
+}
+.wrapper > h3.description{
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  margin: 0;
+  color: #444;
+}
+.whatToRemember{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+#reminder{
+  margin: 0 auto;
+}
+.wrapper > ul{
+  margin: 0;
+  padding: 0;
+}
+.wrapper > ul li{
+  list-style-type: none;
+  padding: 5px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wrapper > ul li > .forgetItem{
+  width: 15px;
+  height: 15px;
+  background-color: #E19292;
+  text-align: center;
+  line-height: 0.7;
+  border: 1px solid #999;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+.wrapper > ul li:nth-child(2n+1){
+  background-color: #f2f2f2;
+}
